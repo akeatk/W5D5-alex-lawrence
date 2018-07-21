@@ -1,0 +1,40 @@
+/* PHASE 6: Sidebar */
+.content-sidebar {
+position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.profile-picture {
+  
+  top: -100px;
+}
+
+.profile-picture img {
+  height: 200px;
+  width: 200px;
+  margin:auto;
+  border: 1px solid black ;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.profile-info { 
+
+  top: 140px;
+}
+
+.profile-info header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-nav a {
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+
